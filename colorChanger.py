@@ -28,6 +28,7 @@ def swap_and_preview():
 
         try:
             # Open the image
+            # Open the image Test
             img = Image.open(file_path)
 
             # Convert to RGB if it's not already
@@ -35,6 +36,7 @@ def swap_and_preview():
                 img = img.convert('RGB')
 
             # Split into channels
+             # Split into channels Test comment
             r, g, b = img.split()
 
             # Swap based on the option
